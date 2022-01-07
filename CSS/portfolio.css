@@ -1,0 +1,68 @@
+/*
+Color palette   
+Azure			#F0FFFF
+Baby Blue		#89CFF0
+Sky Blue		#87CEEB
+Cornflower Blue	#6495ED
+
+Pastel Blue	#A7C7E7
+*/
+
+body{
+	font-family: "Lucida console", serif;
+	tect-align: center;
+}
+header{
+	background-color: #F0FFFF;
+	padding: 1%;
+	text-align: right;
+}
+h1{
+	color: darkslateblue;
+	margin-bottom: 0px;
+}
+div	{
+	margin-top: 0px;
+	padding: 1%;
+}
+
+nav a{
+	display: inline-block;
+	margin: 10px;
+	font-size: 120%;
+	text-decoration: none;
+	border-radius: 5px;
+/*	*/
+	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+}
+a:hover{
+	background-color: #89CFF0;
+
+}
+a:visited{
+	text-decoration: none;
+}
+a:link{
+	text-decoration: none;
+}
+#Welcome {
+	background-color: /*#89CFF0*/ #ADD8E6;
+	display: block;
+	text-align: center;
+}
+#Projects {
+	background-color: #87CEEB;
+	display: block;
+	text-align: center;
+}
+#Contacts {
+	background-color: #A7C7E7;
+	display: block;
+	text-align: center;
+}
+.icon{
+	width: 60px;
+	margin: 25px;
+}
