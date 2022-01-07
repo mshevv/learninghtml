@@ -1,0 +1,147 @@
+/* part of final assignment (tables)*/
+
+table{
+font-family: "Times New Roman", Times, serif;
+line-height: 30px;
+font-weight: bolder;
+width: 75%;
+min-width: 400px;
+vertical-align: center;
+padding: 0px;
+border-spacing: 0;
+margin-left: 80px;
+border-radius: 5px 5px 0 0;
+}
+th, td {
+	border-bottom: 1px solid black;
+}
+tr{
+	opacity: 0.8;
+}
+th{
+	color: #FFFFFF;
+	background-image: linear-gradient(to bottom, darkgreen, green);
+	border-radius: 5px 5px 0 0;
+	border: 1px solid #000000;
+	border-bottom: 2px solid #000000;
+	font-size: 125%;
+}
+
+
+tr:first-child{
+	/*-webkit-border-radius: 0 0 25px 25px;*/
+	border-radius: 25px 25px 0 0;	
+}
+
+td{
+	color: darkgreen;
+	padding: 5px;
+	padding-left: 15px;
+	background-color: #6CBB2A;
+	border: 1px solid #ffffff;
+	border-left: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	border-radius: 2px;
+	text-shadow: 1px 1px grey;
+
+}
+tr:hover{
+	opacity: 1.0;
+	cursor: default;
+}
+tr td:first-child{
+	text-align: left;
+}
+tr td:nth-child(2), td:nth-child(3){
+	text-align: center;
+}
+
+/* previous assignment */
+header{
+	background-color: #909090;
+	background-image: url('../images/flywheel.jpg');
+	background-position: 50% 0%;
+  	background-repeat: no-repeat;
+  	padding: 2%;
+}
+
+body{
+	padding: 2%;
+	margin: 2%;
+}
+
+
+a{
+	color: #560000;
+	background-color: #D7D7D7;
+}
+
+nav{
+	text-align: center;
+}
+
+nav a{
+	display: inline-block;
+	margin: 2%;
+	border-radius: 6px;
+	text-decoration: none;
+	background-color: #494949;
+	color: #6CBB2A;
+	padding: 1%;
+
+}
+
+nav a.active{
+	display: inline-block;
+	margin: 2%;
+	border-radius: 6px;
+	text-decoration: none;
+	background-color: #00000095;
+	color: #0E64B2;
+	padding: 1%;
+}
+
+h1{
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+h2{
+	color: #0F145E;
+	text-transform: uppercase;
+}
+
+
+
+section{
+	display: inline-block;
+}
+
+aside{
+	background-color: #50814A;
+	flex-direction: column;
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	padding: 4%;
+}	
+
+.left img{
+	width: 100%;
+	display: block;
+	float: center;
+	border-style: solid;
+	border-color: #3F46A9;
+	margin-bottom: 10%;
+
+}
+
+
+
+.right{
+	float: right;
+	width: 70%;
+	height: 100%;
+
+}
